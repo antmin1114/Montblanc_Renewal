@@ -1630,7 +1630,7 @@
 
     .banner .banner-top {
 
-        height: 50vh;
+        height: 45vh;
         border-bottom: none;
 
     }
@@ -1653,7 +1653,7 @@
     .banner-bot {
 
         flex-direction: column;
-        height: 45vh;
+        height: 35vh;
 
     }
 
