@@ -7,9 +7,6 @@ $(document).ready(function(){
 
         const banner = $('.banner').offset().top;
         const sec1 = $('.sec-1').offset().top;
-        const sec2 = $('.sec-2').offset().top;
-        const sec3 = $('.sec-3').offset().top;
-        const footer = $('.footer').offset().top;
 
         const sct = $(window).scrollTop();
         console.log(sct);
@@ -46,6 +43,16 @@ $(document).ready(function(){
                 $(this).removeClass('active');
 
             });
+
+        } else {
+
+            $('#hamburger').click(function() {
+
+                $(this).toggleClass('active');
+                $('.main-menu').toggleClass('active');
+
+            });
+
         }
     }
 
@@ -65,22 +72,6 @@ $(document).ready(function(){
                 $(`#${result}`).addClass('active');
 
             });
-
-        } else if (ww <= 960) {
-
-            // createDIV();
-            // function createDIV(){
-            //     var obj = document.getElementById("foot-logo");
-            //     var newDIV = document.createElement("div");
-            //     newDIV.innerHTML = "";
-            //     newDIV.setAttribute("id", "myDiv");
-            //     newDIV.style.backgroundColor = "yellow";
-            //     newDIV.onclick = function() {
-            //         var p = this.parentElement; // 부모 HTML 태그
-            //         p.removeChild(this);    // 자신을 부모로부터 제거
-            //     };
-            //     obj.appendChild(newDIV);
-            // }
 
         }
 

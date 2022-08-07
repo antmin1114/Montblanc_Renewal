@@ -1044,7 +1044,7 @@
 
 .bottom-bar .sns-box {
 
-    width: 100px;
+    width: 180px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1214,9 +1214,48 @@
     .sub-menu-box,
     .header-area .main-menu {
 
-        display: none;
+        /* display: none; */
 
     }
+
+    /* 메인메뉴 다시 스타일링 지정 */
+    .header-area .main-menu {
+
+        background-color: #eeeeee;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        color: #000;
+        font-size: 8vw;
+        /* 1000px 기준 80px */
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20% 10%;
+        /* 1000px 기준 좌우는 100px 상하는 200px */
+        transform: translateY(-100%);
+        transition: 1s;
+
+    }
+
+    .header-area .main-menu.active {
+
+        transform: translateY(0);
+
+    }
+
+    .header-area .main-menu .menu {
+
+        margin-bottom: 2rem;
+
+    }
+
+    /* .header-area .header-logo svg {
+
+        opacity: 1;
+
+    } */
 
     .banner-top .title {
 
@@ -1591,7 +1630,8 @@
 
     .banner .banner-top {
 
-        height: 40vh;
+        height: 50vh;
+        border-bottom: none;
 
     }
 
@@ -1613,7 +1653,7 @@
     .banner-bot {
 
         flex-direction: column;
-        height: 40vh;
+        height: 45vh;
 
     }
 
@@ -1623,6 +1663,12 @@
         width: 100%;
         height: 33.333%;
         border-bottom: 1px solid #fff;
+
+    }
+
+    .banner-bot li:last-child {
+
+        border-bottom: none;
 
     }
 
@@ -1775,6 +1821,12 @@
     .bottom-bar .footer-area .btn-top {
 
         font-size: 0.625rem;
+
+    }
+
+    .bottom-bar .sns-box {
+
+        width: 100px;
 
     }
 
