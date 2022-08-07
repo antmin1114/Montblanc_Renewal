@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
+
+    <title>Montblanc</title>
+</head>
+<body>
+    <!-- 전체 배너 부분 -->
+    <section class="section banner">
+        <div class="container-banner">
+            <!-- 헤더영역 -->
+            <header class="header-area">
+                <!-- 햄버거버튼 -->
+                <a href="#none" id="hamburger">
+                    <span></span>
+                    <span></span>
+                </a>
+
+                <!-- 메인메뉴 -->
+                <ul class="main-menu">
+                    <li data-alt="tab1">
+                        <a href="#none" class="menu">WATHCES</a>
+                    </li>
+                    <li data-alt="tab2">
+                        <a href="#none" class="menu">WALLETS</a>
+                    </li>
+                    <li data-alt="tab3">
+                        <a href="#none" class="menu">MORE</a>
+                    </li>
+                </ul>
+                <div class="header-logo">
+                    <!-- 로고 svg코드 -->
+                    <a href="#none">
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                        width="1588.000000pt" height="295.000000pt" viewBox="0 0 1588.000000 295.000000"
+                        preserveAspectRatio="xMidYMid meet">
+                        <g transform="translate(0.000000,295.000000) scale(0.100000,-0.100000)"
+                        fill="#000000" stroke="none">
+                        <path d="M14845 2923 c-420 -89 -717 -505 -665 -929 45 -363 293 -644 650
+                        -735 94 -24 279 -27 373 -5 327 76 569 313 649 636 29 116 29 292 -1 405 -25
+                        93 -81 218 -128 284 -123 172 -322 303 -525 345 -96 20 -259 19 -353 -1z m251
+                        -162 c42 -19 70 -53 128 -154 41 -71 62 -81 191 -88 74 -4 120 -11 142 -22 49
+                        -26 76 -72 81 -136 3 -52 0 -64 -48 -155 -62 -117 -62 -130 1 -238 35 -59 44
+                        -84 47 -133 3 -50 0 -65 -20 -94 -45 -66 -66 -75 -197 -81 -82 -5 -126 -11
+                        -142 -22 -13 -8 -45 -51 -71 -94 -67 -114 -106 -144 -184 -144 -77 0 -119 33
+                        -182 145 -57 101 -68 107 -210 115 -109 5 -122 8 -154 32 -74 56 -88 146 -38
+                        238 85 155 86 168 19 281 -54 91 -63 162 -27 223 37 64 74 79 204 85 137 7
+                        145 12 217 131 42 69 60 89 97 108 54 27 92 28 146 3z"/>
+                        <path d="M2827 1710 c-440 -54 -768 -446 -744 -890 17 -319 196 -588 481 -725
+                        136 -65 205 -80 371 -80 115 1 154 5 219 23 146 42 269 114 377 222 334 332
+                        333 877 -3 1207 -81 81 -136 120 -234 166 -144 67 -316 96 -467 77z m185 -431
+                        c175 -37 313 -182 336 -354 27 -212 -88 -397 -289 -465 -52 -18 -81 -21 -151
+                        -18 -75 4 -96 9 -161 41 -189 93 -280 303 -218 505 62 205 277 334 483 291z"/>
+                        <path d="M13551 1709 c-303 -39 -578 -256 -685 -540 -44 -117 -59 -220 -53
+                        -349 7 -135 24 -204 78 -320 83 -176 219 -315 394 -400 148 -72 202 -84 380
+                        -84 153 0 234 14 338 58 l37 16 0 229 0 230 -57 -35 c-89 -53 -172 -76 -283
+                        -76 -158 0 -281 59 -367 176 -151 204 -88 487 137 619 140 82 360 72 513 -23
+                        27 -17 50 -30 53 -30 2 0 4 103 4 229 l0 228 -92 31 c-88 29 -236 53 -303 51
+                        -16 -1 -59 -5 -94 -10z"/>
+                        <path d="M7 1683 c-4 -3 -7 -375 -7 -825 l0 -818 220 0 220 0 0 317 0 317 245
+                        -244 245 -244 243 242 c133 133 245 242 250 242 4 0 7 -142 7 -315 l0 -315
+                        215 0 215 0 0 819 c0 600 -3 822 -11 827 -7 4 -190 -174 -462 -450 l-450 -457
+                        -456 455 c-251 251 -459 456 -462 456 -3 0 -9 -3 -12 -7z"/>
+                        <path d="M4007 1683 c-4 -3 -7 -375 -7 -825 l0 -818 220 0 220 0 2 383 3 384
+                        473 -385 c301 -244 478 -382 487 -378 13 5 15 115 15 826 l0 820 -220 0 -220
+                        0 -2 -386 -3 -386 -475 386 c-261 212 -478 386 -481 386 -3 0 -9 -3 -12 -7z"/>
+                        <path d="M5600 1480 l0 -210 225 0 225 0 0 -615 0 -615 220 0 220 0 0 615 0
+                        615 225 0 225 0 0 210 0 210 -670 0 -670 0 0 -210z"/>
+                        <path d="M7120 865 l0 -825 388 0 c236 0 412 4 448 11 221 40 384 236 384 463
+                        0 132 -38 234 -121 321 -49 52 -49 52 -29 70 36 33 88 120 110 186 18 53 21
+                        81 18 160 -3 87 -7 103 -41 173 -69 139 -184 225 -337 252 -54 9 -181 13 -447
+                        14 l-373 0 0 -825z m689 485 c128 -36 153 -212 41 -287 -30 -21 -44 -23 -181
+                        -23 l-149 0 0 153 c0 85 3 157 7 160 10 11 244 8 282 -3z m31 -632 c120 -61
+                        117 -234 -3 -292 -27 -12 -66 -16 -176 -16 l-141 0 0 158 c0 87 3 162 7 165 3
+                        4 65 7 138 7 116 0 136 -3 175 -22z"/>
+                        <path d="M8570 865 l0 -825 440 0 440 0 0 210 0 210 -225 0 -225 0 0 615 0
+                        615 -215 0 -215 0 0 -825z"/>
+                        <path d="M10287 1663 c-8 -15 -180 -383 -382 -818 -202 -434 -369 -793 -372
+                        -797 -2 -5 103 -8 234 -8 l238 0 150 334 c83 184 152 332 155 331 3 -2 72
+                        -152 155 -334 l150 -331 232 0 c128 0 233 3 233 8 0 17 -759 1637 -768 1640
+                        -6 2 -17 -9 -25 -25z"/>
+                        <path d="M11177 1684 c-4 -4 -7 -376 -7 -826 l0 -818 215 0 215 0 2 386 3 387
+                        475 -387 c261 -212 482 -385 490 -383 13 2 15 101 15 822 l0 820 -217 3 -218
+                        2 0 -386 c0 -212 -4 -384 -8 -382 -5 2 -219 174 -476 383 -258 209 -471 381
+                        -475 383 -4 1 -10 -1 -14 -4z"/>
+                        </g>
+                        </svg>    
+                    </a>
+                </div>
+                <ul class="icon-box">
+                    <li>
+                        <a href="#none">
+                            <img src="./img/user.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/wish.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/bag.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </header>
+
+            <!-- 서브메뉴박스 -->
+            <div class="sub-menu-box">
+                <ul id="tab1" class="sub-menu watches">
+                    <li class="menu-left">
+                        <img src="./img/watch1.png" alt="">
+                    </li>
+                    <li class="menu-right">
+                        <a href="#none" class="sub-menu-detail">
+                            <ul class="sub-menu-head">
+                                <h2>COLLECTION</h2>
+                                <li class="sub-menu-body">1858 Collection</li>
+                                <li class="sub-menu-body">Montblanc Heritage</li>
+                                <li class="sub-menu-body">Star Legacy</li>
+                                <li class="sub-menu-body">Summit Smart-watch</li>
+                                <li class="sub-menu-body">Bohem</li>
+                            </ul>
+                        </a>
+                        <a href="#none" class="sub-menu-detail">
+                            <ul class="sub-menu-head">
+                                <h2>MOVEMENT</h2>
+                                <li class="sub-menu-body">Automatic Movement</li>
+                                <li class="sub-menu-body">Quartz Movement</li>
+                                <li class="sub-menu-body">Smart Watch</li>
+                            </ul>
+                        </a>
+                        <a href="#none" class="sub-menu-detail">
+                            <ul class="sub-menu-head">
+                                <h2>DIAMETER</h2>
+                                <li class="sub-menu-body">30~37mm</li>
+                                <li class="sub-menu-body">38~40mm</li>
+                                <li class="sub-menu-body">41~43mm</li>
+                                <li class="sub-menu-body">44mm 이상</li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+                <ul id="tab2" class="sub-menu wallets">
+                    <li class="menu-left">
+                        <img src="./img/wallet1.webp" alt="">
+                    </li>
+                    <li class="menu-right">
+                        <a href="#none" class="sub-menu-detail">
+                            <ul class="sub-menu-head">
+                                <h2>COLLECTION</h2>
+                                <li class="sub-menu-body">4810 West Side</li>
+                                <li class="sub-menu-body">Meisterstück</li>
+                                <li class="sub-menu-body">Meisterstück Selection</li>
+                                <li class="sub-menu-body">Meisterstück Sfumato</li>
+                                <li class="sub-menu-body">Montblanc Sartorial</li>
+                            </ul>
+                        </a>
+                        <a href="#none" class="sub-menu-detail">
+                            <ul class="sub-menu-head">
+                                <h2>TYPE</h2>
+                                <li class="sub-menu-body">Half Wallet</li>
+                                <li class="sub-menu-body">Medium Wallet</li>
+                                <li class="sub-menu-body">Card Wallet</li>
+                            </ul>
+                        </a>
+                        <a href="#none" class="sub-menu-detail">
+                            <ul class="sub-menu-head">
+                                <h2>FUNCTION</h2>
+                                <li class="sub-menu-body">coin purse included</li>
+                                <li class="sub-menu-body">no coin purse</li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+                <ul id="tab3" class="sub-menu more">
+                    <li class="menu-left">
+                        <img src="./img/small-logo.png" alt="">
+                    </li>
+                    <li class="menu-right">
+                        <a href="#none" class="sub-menu-detail">
+                            <ul class="sub-menu-head">
+                                <h2>SPECIAL OFFER</h2>
+                                <li class="sub-menu-body">Bestseller Product</li>
+                                <li class="sub-menu-body">New Product</li>
+                                <li class="sub-menu-body">Gift Guide</li>
+                            </ul>
+                        </a>
+                        <a href="#none" class="sub-menu-detail">
+                            <ul class="sub-menu-head">
+                                <h2>SPECIAL COLLAB</h2>
+                                <li class="sub-menu-body">Montblanc X Maison Kitsuné Collection</li>
+                                <li class="sub-menu-body">Montblanc x BAPE®</li>
+                                <li class="sub-menu-body">Inspi(RED)</li>
+                            </ul>
+                        </a>
+                        <a href="#none" class="sub-menu-detail">
+                            <ul class="sub-menu-head">
+                                <h2>SERVICE</h2>
+                                <li class="sub-menu-body">Gift</li>
+                                <li class="sub-menu-body">FAQ</li>
+                                <li class="sub-menu-body">inquiry</li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            
+            <!-- 배너 부분 -->
+            <div class="banner-top">
+                <div class="title">
+                    Discover<br>Montblanc's Bestsellers
+                </div>
+                <div class="btn">
+                    <a href="#none">SHOW NOW</a>
+                </div>
+            </div>
+            <ul class="banner-bot">
+                <li>
+                    <div class="content-box">
+                        <img src="./img/watch-white.svg" alt="">
+                        <span>SHOP WATCHES</span>
+                        <p>By watches new and pre-owned at
+                            smart affordable prices</p>
+                    </div>
+                    <div class="btn-box">
+                        <a href="#none"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="content-box">
+                        <img src="./img/wallet-white.svg" alt="">
+                        <span>SHOP WALLETS</span>
+                        <p>Purchase wallets from variety
+                            of high-quality leather</p>
+                    </div>
+                    <div class="btn-box">
+                        <a href="#none" class="btn"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="content-box">
+                        <img src="./img/more-white.svg" alt="">
+                        <span>SHOP MORE</span>
+                        <p>Find out more about it</p>
+                    </div>
+                    <div class="btn-box">
+                        <a href="#none" class="btn"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- sec-1 -->
+    <section class="sec-1">
+        <div class="container">
+            <div class="sec-1-top">
+                <div class="title">
+                    <span>Our recommendations</span>
+                    <h1>1858 collections</h1>
+                </div>
+                <ul class="items-name">
+                    <li data-alt="sec-1-watch" class="active">
+                        <a href="#none">
+                            <img src="./img/watch.svg" alt="">WATCHES
+                        </a>
+                    </li>
+                    <li data-alt="sec-1-wallet">
+                        <a href="#none">
+                            <img src="./img/wallet.svg" alt="">WALLETS
+                        </a>
+                    </li>
+                    <li data-alt="sec-1-pen">
+                        <a href="#none">
+                            <img src="./img/pen.svg" alt="">PEN
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sec-1-bot">
+                <div class="items-img swiper mySwiper active" id="sec-1-watch" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slider-1">
+                            <img src="./img/watch1.png" alt="">
+                            <span>MONTBLANC 1858 GMT</span>
+                            <h2>￦4,880,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-2">
+                            <img src="./img/watch2.png" alt="">
+                            <span>MONTBLANC 1858 GMT</span>
+                            <h2>￦4,880,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-3">
+                            <img src="./img/watch3.png" alt="">
+                            <span>MONTBLANC 1858 GMT</span>
+                            <h2>￦4,590,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-4">
+                            <img src="./img/watch4.png" alt="">
+                            <span>MONTBLANC 1858 GMT</span>
+                            <h2>￦4,590,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-5">
+                            <img src="./img/watch5.webp" alt="">
+                            <span>몽블랑 1858 아이스드 씨 오토매틱 데이트</span>
+                            <h2>￦3,890,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-6">
+                            <img src="./img/watch6.webp" alt="">
+                            <span>몽블랑 1858 아이스드 씨 오토매틱 데이트</span>
+                            <h2>￦4,170,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-7">
+                            <img src="./img/watch7.webp" alt="">
+                            <span>몽블랑 1858 아이스드 씨 오토매틱 데이트</span>
+                            <h2>￦3,890,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-8">
+                            <img src="./img/watch8.webp" alt="">
+                            <span>몽블랑 1858 아이스드 씨 오토매틱 데이트</span>
+                            <h2>￦4,170,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-9">
+                            <img src="./img/watch9.webp" alt="">
+                            <span>몽블랑 1858 아이스드 씨 오토매틱 데이트</span>
+                            <h2>￦3,890,000</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="items-img swiper mySwiper" id="sec-1-wallet" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slider-1">
+                            <img src="./img/wallet1.webp" alt="">
+                            <span>몽블랑 사토리얼 6cc 지갑</span>
+                            <h2>￦500,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-2">
+                            <img src="./img/wallet2.webp" alt="">
+                            <span>몽블랑 익스트림 3.0 6cc 컴팩트 지갑</span>
+                            <h2>￦420,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-3">
+                            <img src="./img/wallet3.webp" alt="">
+                            <span>몽블랑 익스트림 3.0 8cc 미니 파우치</span>
+                            <h2>￦600,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-4">
+                            <img src="./img/wallet4.webp" alt="">
+                            <span>몽블랑 익스트림 3.0 6cc 컴팩트 지갑</span>
+                            <h2>￦420,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-5">
+                            <img src="./img/wallet5.webp" alt="">
+                            <span>마이스터스튁 셀렉션 소프트 6cc 지갑</span>
+                            <h2>￦560,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-6">
+                            <img src="./img/wallet6.webp" alt="">
+                            <span>마이스터스튁 6cc 컴팩트 지갑</span>
+                            <h2>￦440,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-7">
+                            <img src="./img/wallet7.webp" alt="">
+                            <span>마이스터스튁 6cc 컴팩트 지갑</span>
+                            <h2>￦440,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-8">
+                            <img src="./img/wallet8.webp" alt="">
+                            <span>마이스터스튁 4810 15cc 장지갑</span>
+                            <h2>￦630,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-9">
+                            <img src="./img/wallet9.webp" alt="">
+                            <span>마이스터스튁 4810 6cc 지갑</span>
+                            <h2>￦450,000</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="items-img swiper mySwiper" id="sec-1-pen" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slider-1">
+                            <img src="./img/pen1.webp" alt="">
+                            <span>마이스터스튁 글래시어 솔리테어 볼펜</span>
+                            <h2>￦1,710,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-2">
+                            <img src="./img/pen2.webp" alt="">
+                            <span>마이스터스튁 로즈 골드 도금 클래식 볼펜</span>
+                            <h2>￦580,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-3">
+                            <img src="./img/pen3.webp" alt="">
+                            <span>마이스터스튁 플래티넘 코팅 클래식 볼펜</span>
+                            <h2>￦590,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-4">
+                            <img src="./img/pen4.webp" alt="">
+                            <span>마이스터스튁 골드 코팅 클래식 볼펜</span>
+                            <h2>￦580,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-5">
+                            <img src="./img/pen5.webp" alt="">
+                            <span>마이스터스튁 플래티넘 라인 미드사이즈 볼펜</span>
+                            <h2>￦620,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-6">
+                            <img src="./img/pen6.webp" alt="">
+                            <span>마이스터스튁 솔리테어 블루 아워 미드 사이즈 볼펜</span>
+                            <h2>￦1,460,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-7">
+                            <img src="./img/pen7.webp" alt="">
+                            <span>마이스터스튁 골드 코팅 르그랑 볼펜</span>
+                            <h2>￦640,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-8">
+                            <img src="./img/pen8.webp" alt="">
+                            <span>마이스터스튁 플래티넘 코팅 르그랑 볼펜</span>
+                            <h2>￦650,000</h2>
+                        </div>
+                        <div class="swiper-slide slider-9">
+                            <img src="./img/pen9.webp" alt="">
+                            <span>도네이션 펜 오마주 투 프레데리크 쇼팽 스페셜 에디션 볼펜</span>
+                            <h2>￦770,000</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <a href="#none" class="sec-btn">VIEW ALL PRODUCTS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- sec-2 -->
+    <section class="sec-2">
+        <div class="container">
+            <div class="sec-2-left">
+                <div class="img-box" data-aos="fade-right" data-aos-duration="1500">
+                    <img src="./img/sec-2-bg.JPG" alt="">
+                </div>
+            </div>
+            <div class="sec-2-right">
+                <div class="title" data-aos="fade-down" data-aos-duration="1500">the power of writing</div>
+                <p class="content" data-aos="fade-left" data-aos-duration="1500">
+                    Writing helps you develop your communication and thinking skills, 
+                    and it allows you to express yourself as you are. 
+                    Writing is the most authentic and meaningful way Montblanc 
+                    as a brand can give back to society. 
+                    The reason is that we sincerely believe that anyone, 
+                    regardless of background, 
+                    should be able to leave their mark through writing.
+                </p>
+                <a href="#none" data-aos="fade-up" data-aos-duration="1500">VIEW MORE PRODUCTS</a>
+            </div>
+        </div>
+        <!-- <img src="./img/small-logo.png" alt="" class="bg-img"> -->
+    </section>
+
+    <!-- sec-3 -->
+    <section class="sec-3">
+        <div class="container">
+            <div class="img-box-left">
+                <div class="img-box">
+                    <img src="./img/sec-3-watch.webp" alt="" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="./img/sec-3-wallet.webp" alt="" data-aos="fade-up" data-aos-duration="2000">
+                </div>
+            </div>
+            <div class="img-box-right">
+                <div class="img-box">
+                    <img src="./img/sec-3-pen.webp" alt="" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="./img/sec-3-more.webp" alt="" data-aos="fade-down" data-aos-duration="2000">
+                </div>
+                <div class="txt-box">
+                    <p class="txt"  data-aos="fade-left" data-aos-duration="2000">
+                        A bold change in Montblanc's signature leather collection,<br>
+                        the Meisterstück Selection Soft was created for a new generation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="foot-top">
+                <div class="box left">
+                    <p class="main-title">WAY TO COME</p>
+                    <div class="content-box">
+                        <div class="txt-box">
+                            <p class="title">Find the nearest boutique</p>
+                            <a href="#none" class="btn">Get Directions</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box right">
+                    <p class="main-title">SIGN UP</p>
+                    <div class="content-box">
+                        <div class="txt-box">
+                            <p class="title">After signing up,<br> enjoy the 10,000￦ coupon benefit</p>
+                            <a href="#none" class="btn">Sign up in 2 minutes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-bot">
+                <div class="logo top">
+                    <img src="./img/logo.svg" alt="">
+                </div>
+                <div class="foot-map">
+                    <a href="#none" class="foot-menu-detail">
+                        <ul class="foot-menu-head">
+                            SERVICE
+                            <li class="sub-menu-body">SHOPPING</li>
+                            <li class="sub-menu-body">EMBOSSING</li>
+                            <li class="sub-menu-body">GIFT</li>
+                            <li class="sub-menu-body">SHIPPING</li>
+                        </ul>
+                    </a>
+                    <a href="#none" class="foot-menu-detail">
+                        <ul class="foot-menu-head">
+                            SUPPORT
+                            <li class="sub-menu-body">C/S</li>
+                            <li class="sub-menu-body">Q&A</li>
+                            <li class="sub-menu-body">MANAGEMENT</li>
+                        </ul>
+                    </a>
+                    <a href="#none" class="foot-menu-detail">
+                        <ul class="foot-menu-head">
+                            INTRODUCE
+                            <li class="sub-menu-body">COMPANY</li>
+                            <li class="sub-menu-body">CONTACT</li>
+                            <li class="sub-menu-body">EMPLOYMENT</li>
+                        </ul>
+                    </a>
+                    <div class="foot-menu-detail newsletter">
+                        <ul class="foot-menu-head">
+                            NEWSLETTER
+                            <li class="sub-menu-body"><span>We will answer you sincerely</span></li>
+                            <li class="sub-menu-body">
+                                <input type="email" placeholder="Enter Your Email Address" class="txt-box">
+                                <!-- <div class="txt-box">enter your email address</div> -->
+                                <a href="#none" class="btn-arrow">
+                                    <img src="./img/right-arrow.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="logo bottom">
+                        <img src="./img/logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="footer-area">
+                <div class="btn-top">
+                    <a href="#none">BACK TO TOP</a>
+                </div>
+                <ul class="sns-box">
+                    <li>
+                        <a href="https://www.youtube.com/c/montblanc">
+                            <img src="./img/youtube.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/montblanc/?hl=ko">
+                            <img src="./img/instagram.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ko-kr.facebook.com/MontblancKorea/">
+                            <img src="./img/facebook.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./js/swiper.js"></script>
+</body>
+</html>
