@@ -1801,17 +1801,23 @@
 
     }
 
-    /* .foot-bot .foot-map .sub-menu-body .txt-box {
+    .foot-bot .foot-map .sub-menu-body .txt-box {
 
-        width: 84vw;
+        width: 100%;
 
-    } */
+    }
 
-    .foot-bot .foot-map .sub-menu-body img {
+    .foot-bot .btn-arrow {
+
+        left: 90%;
+
+    }
+
+    /* .foot-bot .foot-map .sub-menu-body img {
 
         left: 290px;
 
-    }
+    } */
 
     .foot-bot .logo {
 
