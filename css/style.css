@@ -1008,8 +1008,9 @@
 
 }
 
-.foot-bot .foot-map .sub-menu-body img {
+.foot-bot .btn-arrow {
 
+    display: inline-block;
     width: 25px;
     height: 25px;
     position: absolute;
@@ -1017,6 +1018,16 @@
     right: 10px;
 
 }
+
+/* .foot-bot .foot-map .sub-menu-body img {
+
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 85px;
+    right: 10px;
+
+} */
 
 .bottom-bar {
 
@@ -1208,13 +1219,6 @@
     #hamburger.active span:last-child {
 
         transform: translateY(-10px);
-
-    }
-
-    .sub-menu-box,
-    .header-area .main-menu {
-
-        /* display: none; */
 
     }
 
@@ -1449,14 +1453,15 @@
 
     .footer .container-footer {
 
-        height: 2030px;
+        padding-bottom: 50px;
 
     }
 
     .footer .foot-top {
 
         display: block;
-        height: 800px;
+        /* height: 800px; */
+        height: auto;
 
     }
 
@@ -1469,7 +1474,8 @@
 
     .footer .foot-bot {
 
-        height: 1000px;
+        /* height: 1000px; */
+        height: auto;
         display: block;
 
     }
@@ -1489,6 +1495,7 @@
     .foot-bot .logo.bottom {
 
         display: block;
+        padding: 50px 0;
 
     }
 
@@ -1498,7 +1505,7 @@
 
     }
 
-    .foot-bot .foot-map a,
+    .foot-bot .foot-map > a,
     .foot-bot .foot-map .newsletter {
 
         border-top: 1px solid #5e5e5e7f;
@@ -1506,17 +1513,17 @@
         
     }
 
-    .foot-bot .foot-map .sub-menu-body img {
+    .foot-bot .btn-arrow {
+
+        left: 325px;
+
+    }
+
+    /* .foot-bot .foot-map .sub-menu-body img {
 
         left: 335px;
 
-    }
-
-    .foot-bot .foot-map .btn-arrow {
-
-        border: none;
-
-    }
+    } */
 
 }
 
@@ -1709,11 +1716,11 @@
         
     }
 
-    .sec-1-top {
+    /* .sec-1-top {
 
         height: 100%;
 
-    }
+    } */
 
     .sec-1-top li {
 
@@ -1775,11 +1782,11 @@
 
     }
 
-    .sec-3 {
+    /* .sec-3 {
 
         height: 1700px;
 
-    }
+    } */
 
     .footer .container-footer {
 
@@ -1794,11 +1801,11 @@
 
     }
 
-    .foot-bot .foot-map .sub-menu-body .txt-box {
+    /* .foot-bot .foot-map .sub-menu-body .txt-box {
 
         width: 84vw;
 
-    }
+    } */
 
     .foot-bot .foot-map .sub-menu-body img {
 

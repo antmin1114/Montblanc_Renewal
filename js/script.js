@@ -60,20 +60,15 @@ $(document).ready(function(){
     media();
     function media() {
 
-        const ww = $(window).width();
-        if (ww > 1100) {
+        $('.sec-1-top li').click(function(){
 
-            $('.sec-1-top li').click(function(){
+            const result = $(this).attr('data-alt');
+            $(this).siblings().removeClass('active');
+            $(this).addClass('active');
+            $('.swiper').removeClass('active');
+            $(`#${result}`).addClass('active');
 
-                const result = $(this).attr('data-alt');
-                $(this).siblings().removeClass('active');
-                $(this).addClass('active');
-                $('.swiper').removeClass('active');
-                $(`#${result}`).addClass('active');
-
-            });
-
-        }
+        });
 
     }
 
